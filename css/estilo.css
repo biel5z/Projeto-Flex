@@ -150,9 +150,9 @@ header {
         font-size: 2rem;
         margin-bottom: 20px;
         color: #191c03;
+        text-align: center;
     }
 
-    text-align: center;
 
     & p {
         max-width: 800px;
@@ -200,4 +200,8 @@ header {
    .grid{
     margin-bottom: 200px;
    }
+}
+
+.caracteristicas .grid li{
+    height: 18vh;
 }
