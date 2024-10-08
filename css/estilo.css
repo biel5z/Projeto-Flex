@@ -336,7 +336,7 @@
      font-size: 2rem;
  }
 
- footer p {
+ footer p, h2 {
      color: #c3c63b;
      text-align: center;
  }
@@ -346,8 +346,8 @@
      background: #0a0c0c;
      width: 15rem;
      padding: 25px 25px 20px 20px;
-     border: 4px solid #27be8c;
-     box-shadow: 0 6px 10px #cfd4de;
+     border: 4px solid #C3C63B;
+     box-shadow: 0 6px 10px #cfd4deaf;
      border-radius: 10px;
      text-align: center;
      color: #fff;
@@ -355,6 +355,10 @@
      transition: all 0.3s ease;
      justify-content: center;
      align-items: center;
+
+     & p{
+        color: #bcbdbd;
+     }
  }
 
  .card-client:hover {
@@ -366,7 +370,7 @@
      object-fit: cover;
      width: 5rem;
      height: 5rem;
-     border: 4px solid #27be8c;
+     border: 4px solid #bcbdbd;
      border-radius: 999px;
      display: flex;
      justify-content: center;
@@ -403,7 +407,7 @@
      width: 100%;
      height: 2px;
      margin: 20px 0;
-     background: #27be8c;
+     background: #ffffff;
  }
 
  .social-media a {
@@ -458,4 +462,10 @@
  .social-media a:hover .tooltip-social {
      opacity: 1;
      transform: translate(-50%, -130%);
+ }
+
+ @media (min-width: 700px){
+    .card-client{
+        width: 50rem;
+    }
  }
